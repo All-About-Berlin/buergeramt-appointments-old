@@ -2,6 +2,8 @@
 
 Checks Berlin.de for free Anmeldung appointments every X minutes, then analyses the results.
 
+Later, I built a [Python version that serves the results via websockets](https://github.com/nicbou/burgeramt-appointments-websockets). It powers my [Bürgeramt appointment finder](https://allaboutberlin.com/appointments).
+
 ## How to use
 
 Run `get-page.sh` periodically. Turn the resulting pages into machine-readable data with `results-parser.py`.
