@@ -1,6 +1,6 @@
 # Bürgeramt appointment experiment
 
-Checks Berlin.de for free Anmeldung appointments every X minutes, then analyses the results.
+Checks Berlin.de for free Anmeldung appointments every X minutes, then analyses the results. **This script will not help you find an appointment**. If that's what you need, use [this tool](https://github.com/nicbou/burgeramt-appointments-websockets).
 
 Later, I built a [Python version that serves the results via websockets](https://github.com/nicbou/burgeramt-appointments-websockets). It powers my [Bürgeramt appointment finder](https://allaboutberlin.com/appointments).
 
